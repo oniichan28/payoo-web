@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payoo App</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="min-h-screen flex flex-col justify-center items-center bg-[#F4F5F7]">
+
+  <section class="w-[300px]">
+    <!-- Top Curve with Logo -->
+    <div class="relative w-full h-[250px] flex justify-center">
+      <img src="./assets/bg.png" alt="bg" class="absolute inset-0 w-full h-full object-contain bg-cover" />
+      <img src="./assets/Group.png" alt="logo" class="absolute top-[40px] w-[60px] h-[60px]" />
+    </div>
+
+    <!-- Form -->
+    <div class="mt-">
+      <h3 class="font-semibold">Mobile Number</h3>
+      <input type="text" placeholder="Enter your mobile number" 
+             class="input input-bordered w-full rounded-lg mt-2 border-none " />
+
+      <h3 class="font-semibold mt-3">4 Digit Pin</h3>
+      <input type="password" maxlength="4" placeholder="Enter your 4 digit pin" 
+             class="input input-bordered w-full rounded-lg mt-2 border-none " />
+    </div>
+
+    <!-- Button -->
+    <button class="btn bg-[#0874F2] text-white w-full rounded-2xl mt-5">Login</button>
+  </section>
+
+</body>
+</html>
